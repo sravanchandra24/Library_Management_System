@@ -63,3 +63,69 @@ This project showcases:
 ## 🖥 Sample Menus
 
 ### Main Menu
+Create Account
+
+Login as User
+
+Login as Admin
+
+Exit
+
+
+### Admin Menu
+
+
+Add Book
+
+Remove Book
+
+Modify Book
+
+List Books
+
+View Users
+
+Logout
+
+
+### User Menu
+
+
+View Balance
+
+Deposit Funds
+
+Borrow Book
+
+Return Book
+
+List Books
+
+Logout
+
+
+---
+
+## 🔧 System Requirements
+| Requirement | Details |
+|------------|---------|
+| Language | Java (JDK 8+) |
+| Console | Command Prompt / Terminal |
+| IDE (optional) | IntelliJ, Eclipse, NetBeans |
+
+---
+
+## ▶ How to Compile & Run
+
+### Using Terminal / CMD
+```sh
+javac LibraryApp.java
+java LibraryApp
+
+Using an IDE
+
+Create a new Java project
+
+Add the LibraryApp.java file
+
+Run the program
