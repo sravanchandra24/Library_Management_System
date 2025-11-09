@@ -1,40 +1,65 @@
-# Library Management System (Java Console App)
+# Library Management System (Java Console Application)
 
-This is a simple **Library Management System** built using Java. It allows **Users** to manage accounts and borrow books, and **Admins** to manage the book inventory.
+## 📌 Project Description
+This **Library Management System** is a **Java-based console application** designed to simplify book and user management operations in a library environment. It supports both **Admin** and **User** functionalities, ensuring a clear separation of responsibilities.
 
-## Features
-
-### User
-- Create account (`USR0001` format)
-- Secure login (strong password required)
-- View & deposit balance
-- Borrow & return books
-- View available books
-
-### Admin
-- Login (`admin / Admin@123`)
-- Add, edit, and remove books (`B0001` format)
-- View all books and users
-
-## How to Run
-```sh
-javac LibraryApp.java
-java LibraryApp
-
-
-Requirements
-
-Java JDK 8+
-
-Terminal / Command Prompt
-
-A simple and beginner-friendly project for practicing Java, arrays, regex validation, and menu-driven programming.
-
+This project showcases:
+- Input validation using Regex
+- Menu-driven navigation
+- Data storage using arrays
+- Basic object and data handling logic
 
 ---
 
-If you'd like, I can now:
-✅ Upload README + Code into a **ready GitHub repository**  
-✅ Create **PPT** or **PDF Report** for submission  
+## ✅ Features
 
-Just say: **"Make PPT"** or **"Make GitHub Repo"** 😊
+### 👤 User Features
+| Feature | Description |
+|--------|-------------|
+| **Create Account** | Register using unique ID format: `USR0001` |
+| **Secure Password** | Password must meet security rules (uppercase, lowercase, number, special char) |
+| **Balance Management** | Deposit funds and view balance |
+| **Borrow Books** | Borrow available books (tracked to specific user) |
+| **Return Books** | Users can return previously borrowed books |
+
+---
+
+### 🛠 Admin Features
+| Feature | Description |
+|--------|-------------|
+| **Login as Admin** | Default credentials: **Username:** `admin` | **Password:** `Admin@123` |
+| **Add Books** | Add new books using ISBN format: `B0001` |
+| **Modify Books** | Update book title or author |
+| **Remove Books** | Remove books if not currently borrowed |
+| **View Users** | Display all registered users and balances |
+| **View Books** | List all books with availability status |
+
+---
+
+## 🔄 Workflow
+
+### User Flow
+1. Register a new user account  
+2. Login using user ID  
+3. View balance, deposit funds, borrow or return books  
+
+### Admin Flow
+1. Login using admin credentials  
+2. Add, edit, or remove books  
+3. View all users and book list  
+
+---
+
+## 🔒 Validation Rules
+
+| Data | Rule |
+|------|------|
+| **User ID** | Must follow `USRxxxx` format (e.g., `USR0001`) |
+| **Password** | Min 8 chars, 1 uppercase, 1 lowercase, 1 digit, 1 special character |
+| **ISBN** | Must follow `Bxxxx` format (e.g., `B0001`) |
+
+---
+
+## 🖥 Sample Menus
+
+### Main Menu
