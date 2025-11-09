@@ -63,45 +63,28 @@ This project showcases:
 ## 🖥 Sample Menus
 
 ### Main Menu
-Create Account
-
-Login as User
-
-Login as Admin
-
-Exit
+  1.Create Account
+  2.Login as User
+  3.Login as Admin
+  4.Exit
 
 
 ### Admin Menu
-
-
-Add Book
-
-Remove Book
-
-Modify Book
-
-List Books
-
-View Users
-
-Logout
+  1.Add Book
+  2.Remove Book
+  3.Modify Book
+  4.List Books
+  5.View Users
+  6.Logout
 
 
 ### User Menu
-
-
-View Balance
-
-Deposit Funds
-
-Borrow Book
-
-Return Book
-
-List Books
-
-Logout
+  1.View Balance
+  2.Deposit Funds
+  3.Borrow Book
+  4.Return Book
+  5.List Books
+  6.Logout
 
 
 ---
